@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS food_logs (
+    id SERIAL PRIMARY KEY,
+    date DATE NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    calories INT NOT NULL
+);
